@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="workshop.MultipleWindowsClass">
+        <methods>
+          <include name="testMultipleWindows"/>
+        </methods>
+      </class> <!-- workshop.MultipleWindowsClass -->
+      <class name="testcases.MyFirstTestFW">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginZoho" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.MyFirstTestFW -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
