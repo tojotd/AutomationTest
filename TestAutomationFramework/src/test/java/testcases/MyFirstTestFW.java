@@ -25,11 +25,11 @@ public class MyFirstTestFW extends BaseTest{
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@id=\"nextbtn\"]/span")).click();
 		
-		//Enter Password
-		Thread.sleep(2000);
-		driver.findElement(By.id("password")).sendKeys(password);
-		
-		System.out.println("Test Script");
+//		//Enter Password
+//		Thread.sleep(2000);
+//		driver.findElement(By.id("password")).sendKeys(password);
+//		
+//		System.out.println("Test Script");
 		
 //		//Click on Sign In Button
 //		Thread.sleep(2000);
